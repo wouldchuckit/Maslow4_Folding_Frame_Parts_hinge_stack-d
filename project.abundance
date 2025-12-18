@@ -12,6 +12,22 @@
     {
       "name": "BeamHeight",
       "ioValue": 203
+    },
+    {
+      "name": "TabletopWidth",
+      "ioValue": 10
+    },
+    {
+      "name": "TabletopLength",
+      "ioValue": 10
+    },
+    {
+      "name": "Input_3",
+      "ioValue": 10
+    },
+    {
+      "name": "Input",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -40,8 +56,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.038834951456310676,
-      "y": 0.4780600461893765,
+      "x": 0.08468176914778856,
+      "y": 0.5242494226327945,
       "uniqueID": "id-4222",
       "name": "x *2",
       "ioValues": [
@@ -54,8 +70,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.039374325782092774,
-      "y": 0.581986143187067,
+      "x": 0.08414239482200647,
+      "y": 0.6073903002309469,
       "uniqueID": "id-4226",
       "name": "x * 3",
       "ioValues": [
@@ -68,8 +84,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.039374325782092774,
-      "y": 0.6951501154734411,
+      "x": 0.0825242718446602,
+      "y": 0.6928406466512702,
       "uniqueID": "id-4230",
       "name": "x *4",
       "ioValues": [
@@ -82,8 +98,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.039374325782092774,
-      "y": 0.8083140877598153,
+      "x": 0.08576051779935276,
+      "y": 0.7875288683602771,
       "uniqueID": "id-4234",
       "name": "x * .5",
       "ioValues": [
@@ -3168,6 +3184,37 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.308,
+      "uniqueID": "id-7688",
+      "name": "TabletopWidth",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.374,
+      "uniqueID": "id-7690",
+      "name": "TabletopLength",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.44,
+      "uniqueID": "id-7693",
+      "name": "Input_3",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.506,
+      "uniqueID": "id-7696",
+      "type": "number"
     }
   ],
   "allConnectors": [
